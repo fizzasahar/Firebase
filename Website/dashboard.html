@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>beDIGITAL</title>
+    <link rel="shortcut icon" href="img/logo.png" type="image/x-icon" style="border: radius 20px; ;">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+
+
+</head>
+
+<body>
+    <header>
+        <nav class="navbar" id="navbar">
+            <div class="logo">
+                <i id="i"><b>✧</b> be</i><i><b>D</b>IGITAL</i>
+            </div>
+            <ul>
+                <li><a href="#home" class="animateLink" data-target="img1" data-target-span="div1">Buinesss Startup</a>
+                </li>
+                <li><a href="#about" class="animateLink" data-target="img2" data-target-span="div2">Digital
+                        Marketing</a></li>
+                <li><a href="#contact" class="animateLink" data-target="img3" data-target-span="div3">Researh Market</a>
+                </li>
+                <li>
+                    <a href="#services" class="animateLink" data-target="img4" data-target-span="div4">Strategy
+                        Marketing</a>
+                    <ul class="submenu">
+                        <li><a href="#web-design" class="animateLink" data-target="img5" data-target-span="div5">Target
+                                Audiance</a></li>
+                        <li><a href="#web-development" class="animateLink" data-target="img6">Contact</a></li>
+                        <li><a href="#seo" class="animateLink" data-target="img7">Send Feedback</a></li>
+                    </ul>
+                </li>
+            </ul>
+            <div class="menu-toggle" id="menu-toggle">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </nav>
+        <div class="scroll-progress" id="scroll-progress"></div>
+    </header>
+
+    <section id="home">
+        <span class="section_span1 animateDiv" id="div1">
+            <h1>Buinesss Startup</h1>
+            <p>Startups are founded by one or more entrepreneurs who want to develop a product or service for which they
+                believe there is demand. These companies generally start with high costs and limited revenue, which is
+                why
+                they look for capital from a variety of sources such as angel investors and venture capitalists.</p>
+        </span>
+        <span class="img animateImage " id="img1">
+            <img src="img/start up.gif" alt="">
+        </span>
+    </section>
+
+    <section id="about">
+        <span class="section_span1 animateDiv" id="div2">
+            <h1>Digital Marketing</h1>
+            <p>Digital marketing, also called online marketing, is the promotion of brands to connect with potential
+                customers using the internet and other forms of digital communication. This includes not only email,
+                social
+                media, and web-based advertising, but also text and multimedia messages as a marketing channel.</p>
+        </span>
+        <span class="img animateImage " id="img2">
+            <img src="img/digital market.gif" alt="">
+        </span>
+    </section>
+
+
+    <section id="contact">
+        <span class="section_span1 animateDiv" id="div3">
+            <h1>Researh Market</h1>
+            <p>Marketing research is the systematic gathering, recording, and analysis of qualitative and quantitative
+                data
+                about issues relating to marketing products and services. The goal is to identify and assess how
+                changing
+                elements of the marketing mix impacts customer behavior.</p>
+        </span>
+        <span class="img animateImage " id="img3">
+            <img src="img/research market.gif" alt="" style="padding-left: 20px;">
+        </span>
+    </section>
+
+    <section id="services">
+        <span class="section_span1 animateDiv" id="div4">
+            <h1>Strategy Marketing</h1>
+            <p>A marketing strategy is an overview of how a business or organization will articulate its value
+                proposition
+                to its customers. Generally, a marketing strategy outlines business goals, target market, buyer
+                personas,
+                competitors, and value for customers.</p>
+        </span>
+        <span class="img animateImage " id="img4">
+            <img src="img/stragedy markting.gif" alt="">
+        </span>
+    </section>
+
+    <section id="web-design">
+        <span class="section_span1 animateDiv" id="div5">
+            <h2>Target Audiance</h2>
+            <p>A target audience is a group of people most likely to be receptive to messaging for a particular product
+                or
+                service. Defined with the help of processes like customer feedback, market research and competitive
+                analysis, a target audience represents the prospects who are buying what you're selling.</p>
+        </span>
+        <span class="img animateImage " id="img5">
+            <img src="img/target.gif" alt="" style="padding-left: 20px;">
+        </span>
+    </section>
+
+    <section id="web-development">
+        <span>
+            <h2 style="padding-left: 40px;">Contact</h2>
+            <form action="mailto:fizzasahar44@gmail.com" method="post" enctype="text/plain">
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required>
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+                <label for="message">Message:</label>
+                <textarea id="message" name="message" rows="5" required></textarea>
+                <button type="submit">Send Message</button>
+            </form>
+        </span>
+        <span class="img animateImage " id="img6">
+            <img src="img/contact.gif" alt="" style="padding-left: 20px;">
+        </span>
+    </section>
+
+    <section id="seo">
+        <span style="padding-top: 100px;">
+            <h2 style="padding-left: 40px;">Send Feedback</h2>
+            <form class="contact1-form validate-form">
+                <div class="wrap-input1 validate-input" data-validate="Message is required">
+                    <textarea class="input1" name="Feedback" placeholder="Type in Your Feedback"></textarea>
+                    <span class="shadow-input1"></span>
+                </div>
+                <div class="container-contact1-form-btn">
+                    <button class="contact1-form-btn">
+                        <span>
+                            Submit
+                            <i class="fa fa-long-arrow-right" aria-hidden="true"></i>
+                        </span>
+                    </button>
+                </div>
+            </form>
+        </span>
+        <span class="img animateImage " id="img7">
+            <img src="img/feedback.gif" alt="" style="padding-left: 20px;">
+        </span>
+
+    </section>
+    <br><br><br><br>
+    <footer>
+        <nav class="navbar" id="navbar">
+            <span>
+                <div class="logo">
+                    <i id="i" style="padding-left: 160px;"><b>✧</b> be</i><i><b>D</b>IGITAL</i>
+                    <p style="color: black; font-size: small;">Privacy · Terms · Advertising · Ad choices · Cookies · ·
+                        Meta © 2024</p>
+                </div>
+
+            </span>
+            <span>
+                <ul>
+                    <li><a href="#home" class="animateLink" data-target="img1" data-target-span="div1">Buinesss
+                            Startup</a></li><br>
+                    <li><a href="#about" class="animateLink" data-target="img2" data-target-span="div2">Digital
+                            Marketing</a></li>
+                    <li><a href="#contact" class="animateLink" data-target="img3" data-target-span="div3">Researh
+                            Market</a></li>
+                    <li><a href="#services" class="animateLink" data-target="img4" data-target-span="div4">Strategy
+                            Marketing</a></li>
+                    <li><a href="#web-design" class="animateLink" data-target="img5" data-target-span="div5">Target
+                            Audiance</a></li>
+                    <li><a href="#web-development" class="animateLink" data-target="img6">Contact</a></li>
+                    <li><a href="#seo" class="animateLink" data-target="img7">Send Feedback</a></li>
+
+                </ul>
+
+            </span>
+        </nav>
+
+    </footer>
+    <button id="sign_out">Log Out</button>
+    <!-- js -->
+    <script src="animation.js"></script>
+    <script type="module" src="firebase.js"></script>
+    <script type="module" src="app.js"></script>
+</body>
+
+</html>
